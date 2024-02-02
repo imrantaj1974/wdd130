@@ -2,13 +2,12 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,300&display=swap');
 
+
 :root {
     --primary-color: #03045E;
     --secondary-color: #0077B6;
     --accent1-color: #00B4D8;
     --accent2-color: #90E0EF;
-/* Color Pallete link  https://coolors.co/palette/03045e-0077b6-00b4d8-90e0ef-caf0f8 */
-    
 
     --heading-font: 'Arial', serif;
     --paragraph-font: 'Georgia', serif;
@@ -20,9 +19,11 @@
 }
 
 body {
-    font-family: Georgia;
+    font-family: 'Open Sans', sans-serif;
     max-width: 960px;
     padding: 20px;
+   /*font-family: 'Roboto', sans-serif;*/
+
 }
 
 h1, h2, h3, h4, h5, h6 {
