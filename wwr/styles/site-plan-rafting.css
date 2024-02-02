@@ -25,20 +25,12 @@ body {
    /*font-family: 'Roboto', sans-serif;*/
 
 }
-/*
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Arial Black';
-    color: black;
-}
-*/
-
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Rock Salt', 'Open Sans', sans-serif;
     color: black;
     
 }
-
 
 header {
     padding: 20px;
