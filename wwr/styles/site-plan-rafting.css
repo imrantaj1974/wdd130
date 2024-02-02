@@ -36,6 +36,8 @@ h1, h2, h3, h4, h5, h6 {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Rock Salt', 'Open Sans', sans-serif;
     color: black;
+    max-width: 1960px;
+    padding: 20px;
 }
 
 
