@@ -1,7 +1,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=font-name@family=optional-2nd-font-name@display=swap');
 */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 :root {
     --primary-color: #03045E;
@@ -19,17 +19,25 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rock Salt', 'Open Sans', sans-serif;
     max-width: 960px;
     padding: 20px;
    /*font-family: 'Roboto', sans-serif;*/
 
 }
-
+/*
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Arial Black';
     color: black;
 }
+*/
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, verdana, sans-serif;
+    color: black;
+}
+
 
 header {
     padding: 20px;
