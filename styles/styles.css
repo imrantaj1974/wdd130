@@ -2,8 +2,12 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-
 }
+body {
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -28,8 +32,11 @@ main img {
     float:right;
     margin: 0 0 1rem 1rem;
 }
+p {
+margin: 1rem;    
+}
 
-p { padding: 0;}
+/* p { padding: 0;} */
 
 
 aside {
@@ -55,7 +62,7 @@ aside img {
 aside h2 {
     position: absolute;
     top: 0px;
-    left: 125px;
+    left: 110px;
 }
 footer {
     margin-top: 1px;
@@ -69,4 +76,8 @@ footer {
     pad: 1rem;
     background-color: #eee;
     color: #000;
+}
+
+.indent {
+padding-left: 2rem;
 }
