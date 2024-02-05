@@ -15,6 +15,12 @@
     --nav-hover-link-color: #fdf0d5;
     --nav-hover-background-color: #003049;
 }
+
+            h1, h2, h3, h4, h5, h6 {
+                color: #03045E;
+            }
+        
+
 a {
     text-decoration: none;
 }
