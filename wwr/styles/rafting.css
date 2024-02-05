@@ -2,8 +2,8 @@
 /* </style> */
 
 :root {
-    --primary-color: #03045E;
-    --secondary-color: #0077B6;
+    --primary-color: rgb(3, 4, 94);
+    --secondary-color: rgb(0, 119, 182);
     --accent1-color: rgb(0, 180, 216);
     --accent2-color: rgb(143, 225, 239);
 
@@ -17,7 +17,7 @@
 }
 
             h1, h2, h3, h4, h5, h6 {
-                color: #03045E;
+                color: rgb(143, 225, 239);
             }
         
 
@@ -58,6 +58,11 @@ a {
     text-align: center;
     padding: 1rem;
 }
+.otherimages section img{
+    float: left;
+    width: 500px;
+
+}
 aside {
     width: 20em;
     /* margin: 1rem;
@@ -69,7 +74,7 @@ aside {
     text-align: center;
     position: relative;
 }
-
+/* 
 main img {
     width: 150px;
     height: auto;
@@ -77,7 +82,18 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px rgb(233, 232, 232); 
     float:right;
-    margin: 0 0 1rem 1rem;
+    margin: 120 0 1rem 1rem;
+} */
+
+main img {
+    width: 650px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(233, 232, 232); 
+    float:left;
+    margin: 15 0 1rem 1rem;
+
 }
 aside {
     width: 20em;
@@ -111,3 +127,23 @@ aside h2 {
     background-color: #eee;
     color: #000;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+    margin: 0;
+}
+
+main {
+    flex: 1; /* Allow main content to grow and take remaining space */
+}
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+
+footer nav.sociallinks img {
+    width: 50px; /* Adjust the width of social icons */
+    height: auto;
