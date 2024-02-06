@@ -33,6 +33,7 @@ a {
     width: 100%;
     height: auto;
 }
+/* Background of text and photo alongwith text */
 .hero article {
     position: absolute;
     margin: 0 auto;
@@ -41,29 +42,25 @@ a {
     padding: 1rem;
     max-width: 80%;
     top: 8rem;
-    left: 0;
+    left: 1rem;
     right: 0;
-    
+    /* size of the photo of employee on the image and its position */
 }
 .hero article img {
     float: right;
-    width: 20px;
+    width: 200px;
 }
-
+/* IT Rafting Title position and color */
 .hero h1 {
     position: absolute;
     background-color: rgb(0, 180, 216, .6);
     top: 1rem;
-    left: 0;
+    left: 1.2rem;
     right: 0;
     text-align: center;
     padding: 1rem;
 }
-/* .otherimages section img{
-    float: left;
-    width: 500px;
- 
-}*/
+
 aside {
     width: 200em;
     /* margin: 1rem;
