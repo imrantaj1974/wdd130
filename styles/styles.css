@@ -62,7 +62,9 @@ nav a{
 
 }
 h1 {
+    border-bottom: 1.5px solid steelblue;
     color: steelblue;
+    text-align: center;
 }
 
 main img {
