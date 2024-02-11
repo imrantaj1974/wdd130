@@ -2,7 +2,7 @@
 /* </style> */
 
 :root {
-    --primary-color: #03045e;
+    --primary-color: rgb(3, 4, 94);
     --secondary-color: rgb(0, 119, 182);
     --accent1-color: rgb(0, 180, 216);
     --accent2-color: rgb(143, 225, 239);
@@ -16,66 +16,20 @@
     --nav-hover-background-color: #003049;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    /* grid-gap: 30px; */
-    grid-gap: 0px;
-    background-color: white;
-    padding: 10px;
-    align-items: center;
-
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 700px;
 }
 
-
-.grid-container-footer {
-    display: grid;
-    grid-template-columns: auto 200px 200px 200px;
-    /* grid-template-columns: repeat(4, 1fr); */
-    /* grid-gap: 30px; */
-    grid-gap: 0px;
-    background-color: cyan;
-    padding: 10px;
-    align-items: center;
-    
-
-}
-
-
-
-/* I am using this grid item for header and also for footer */
-.grid-item {
-background-color: white;
-border: 1px solid #03045e;
-padding: 20px;
-font-size: 30px;
-text-align: center;
-
-}
-
-.grid-item-footer {
-    background-color: white;
-    /* border: 1px solid #03045e; */
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-    }
-    
-    
-footer nav .grid-container-footer img {
-    background-color: white;
-    /* border: 1px solid #03045e; */
-    width: 50px; 
-    height: auto;
-    }
-    
-/* 
 .logo img {
 	margin: 0 0.25rem 0 1rem;
-	width: 364px;
+	width: 64px;
 	height: auto;
-    align-items: right;
-} */
+}
 
 h1 {
 	font-size: 2rem;
@@ -86,50 +40,34 @@ nav {
 	text-align: right;
 }
 
+.
+{
+	display: flex;
+	list-style: none;
+}
+
             h1, h2, h3, h4, h5, h6 {
-                color: #8fe1ef;
+                color: rgb(143, 225, 239);
             }
-            .grid-container ul {
-                display: flex;
-                justify-content: flex-end;
-                list-style: none;
-                align-items: center;
-            }
-
-                    .navigation a {
-                margin: 0;
-                padding: 0;
-                /* color: inherit; */
-                /* text-decoration: none; */
+        
+            .navigation li {
+                flex: 1 1 100%;
             }
             
-            .grid-container a:hover {
-                color:  #a3e4e999;
+            .navigation a {
+                display: block;
+                color: navy;
+                padding: 20px;
+                text-decoration: none;
+            }
+            
+            .navigation a:hover {
+                color:  rgb(143, 225, 239);
                 font-weight: 700;
                 text-decoration: underline;
             }
 
-
-            .grid-container-footer ul {
-                display: flex;
-                justify-content: flex-end;
-                list-style: none;
-                align-items: center;
-            }
-
-                    .navigation-footer a {
-                margin: 0;
-                padding: 0;
-                /* color: inherit; */
-                /* text-decoration: none; */
-            }
             
-            .grid-container-footer a:hover {
-                color:  #a3e4e999;
-                font-weight: 700;
-                text-decoration: underline;
-            } 
-
 
 a {
     text-decoration: none;
@@ -191,7 +129,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px rgb(233, 232, 232); 
-    /* float:center; */
+    float:left;
     margin: 0 0 0 0;
 } 
 
@@ -205,6 +143,7 @@ aside {
     position: relative; */
     text-align: center;
     position: relative;
+
  
 }
 
@@ -246,7 +185,7 @@ footer {
 }
 
 /* Adjust the width of social icons */
-footer nav.grid-container-footer img {
-    width: 30px; 
+footer nav.sociallinks img {
+    width: 50px; 
     height: auto;
 }
