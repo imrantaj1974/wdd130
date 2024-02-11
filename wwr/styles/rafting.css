@@ -143,8 +143,8 @@ figure {
   }
   
   figcaption {
-    background-color: #222;
-    color: #fff;
+    /* background-color: #222; */
+    color: black;
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
@@ -158,7 +158,7 @@ figure {
     grid-template-columns: repeat(5, 1fr);
     /* grid-gap: 30px; */
     grid-gap: 0px;
-    background-color: #03045e;
+    /* background-color: #03045e; */
     padding: 0px;
     /* align-items: center; */
     align-self: center;
