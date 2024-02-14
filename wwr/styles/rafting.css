@@ -30,7 +30,7 @@
 
 .grid-container-footer {
     display: grid;
-    grid-template-columns: auto 200px 200px 200px;
+    grid-template-columns: auto 150px 150px 150px;
     /* grid-template-columns: repeat(4, 1fr); */
     /* grid-gap: 30px; */
     grid-gap: 0px;
@@ -48,7 +48,7 @@
 background-color: white;
 border: 1px solid #03045e;
 padding: 20px;
-font-size: 30px;
+font-size: 20px;
 text-align: center;
 
 }
@@ -57,7 +57,7 @@ text-align: center;
     background-color: white;
     /* border: 1px solid #03045e; */
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     }
     
@@ -162,12 +162,9 @@ figure {
     padding: 0px;
     /* align-items: center; */
     align-self: center;
-    /* z-index: 1; */
+    z-index: 1 ;
 
 }
-
-
-/*  */
 
 
 
@@ -176,6 +173,8 @@ a {
 }
 .hero {
     position: relative;
+    width: 100%;
+    height: auto;
 }
 
 .hero img {
@@ -226,12 +225,12 @@ aside {
 }
  
 main img {
-    width: 650px;
+    width: 500px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px rgb(233, 232, 232); 
-    /* float:center; */
+    float:center;
     margin: 0 0 0 0;
 } 
 
@@ -289,6 +288,6 @@ footer {
 
 /* Adjust the width of social icons */
 footer nav.grid-container-footer img {
-    width: 30px; 
+    width: 50px; 
     height: auto;
 }
