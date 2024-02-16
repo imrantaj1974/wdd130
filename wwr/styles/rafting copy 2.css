@@ -236,8 +236,8 @@ h1 {
 .hero article {
     position: absolute;
     margin: 0 auto;
-    /* background-color: rgb(143, 225, 239, .2); */
-    background-color: rgba(33, 125, 201, 0.5);
+    /* background-color: rgb(143, 225, 239, .6); */
+    background-color: rgba(33, 125, 201, 0.89);
     /* rgb(0, 180, 216) */
     padding: 1rem;
     max-width: 80%;
@@ -285,7 +285,7 @@ main img {
 
     padding: 2px;
     box-shadow: 0 0 30px rgb(233, 232, 232);
-    /* float:center; */
+    float:center;
     margin: 0 0 0 0;
 }
  
@@ -342,7 +342,7 @@ footer nav.grid-container-footer img {
     /* border: 1px solid white; */
     padding: 50px;
     font-size: 30px;
-    /* text-align: bottom; */
+    text-align: bottom;
    }
 
     .grid-item-footer {
@@ -363,7 +363,7 @@ body {
     width: 960px;
     margin: 0 auto;
     font-family: var(--paragraph-font);
-    /* background-color:  --accent2-color: rgb(143, 225, 239); */
+    background-color:  --accent2-color: rgb(143, 225, 239);;
 }
 
 
@@ -372,7 +372,7 @@ h1, h2, h3, h4 {
     margin: 1rem 0;
     /* color: var(--secondary-color); */
     /* text-transform: uppercase; */
-    /* font-color: white; */
+    font-color: white;
 }
  
 footer {

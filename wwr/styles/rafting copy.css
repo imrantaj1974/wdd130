@@ -18,6 +18,54 @@
  
 /*  */
 
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 150px;
+    background-color: rgb(0, 119, 182);
+    /* border-color: skyblue; */
+    border: 2px solid white;
+    color: white;
+    grid-gap: 1rem;
+    text-align: center;
+    padding: 2rem;
+    margin-top: -5px;
+}
+
+.header h2 {
+    grid-column: 1/5;
+    }
+
+.header img {
+        width: 150px;
+        height: auto;
+    }
+    
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+    font-size: larger;
+}
+ 
+nav a {
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+}
+ 
+nav a:hover {
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+}
+
+/* Logo of the website given at the head of the page */
+
+header img {
+    width: 200px;
+}
 
 
 .grid-container {
@@ -26,10 +74,11 @@
     /* grid-template-columns: repeat(5, 1fr); */
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     grid-gap: 0px;
-    font: larger;
+    
     background-color: rgb(0, 119, 182);    
     padding: 5px;
     align-items: center;
+
 }
  
 .grid-container-footer {
@@ -64,15 +113,17 @@
     text-align: center;
     }
    
-
    
 footer nav .grid-container-footer img {
     background-color: white;
     /* border: 1px solid #03045e; */
     width: 50px;
     height: auto;
-    /* border-color:skyblue; */
     }
+
+/* The above two declarations are not making any difference */
+
+/* Added later on */
 
 h1 {
     font-size: 2rem;
@@ -110,7 +161,7 @@ nav {
                 justify-content: flex-end;
                 list-style: none;
                 align-items: center;
-                /* border-color: skyblue; */
+                border-color: skyblue
             }
  
             .navigation-footer a {
@@ -236,8 +287,8 @@ h1 {
 .hero article {
     position: absolute;
     margin: 0 auto;
-    /* background-color: rgb(143, 225, 239, .2); */
-    background-color: rgba(33, 125, 201, 0.5);
+    /* background-color: rgb(143, 225, 239, .6); */
+    background-color: rgba(33, 125, 201, 0.89);
     /* rgb(0, 180, 216) */
     padding: 1rem;
     max-width: 80%;
@@ -285,7 +336,7 @@ main img {
 
     padding: 2px;
     box-shadow: 0 0 30px rgb(233, 232, 232);
-    /* float:center; */
+    float:center;
     margin: 0 0 0 0;
 }
  
@@ -339,10 +390,10 @@ footer nav.grid-container-footer img {
 /* Header page links border */
 .grid-item {
     background-color: navy;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     padding: 50px;
     font-size: 30px;
-    /* text-align: bottom; */
+    text-align: bottom;
    }
 
     .grid-item-footer {
@@ -363,16 +414,17 @@ body {
     width: 960px;
     margin: 0 auto;
     font-family: var(--paragraph-font);
-    /* background-color:  --accent2-color: rgb(143, 225, 239); */
+    background-color:  --accent2-color: rgb(143, 225, 239);;
 }
 
 
 h1, h2, h3, h4 {
     font-family: var(--heading-font);
-    margin: 1rem 0;
+    margin: 1.5rem 0;
     /* color: var(--secondary-color); */
     /* text-transform: uppercase; */
-    /* font-color: white; */
+    font-color: white;
+
 }
  
 footer {
