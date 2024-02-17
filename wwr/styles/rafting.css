@@ -178,6 +178,10 @@ grid-column: 1/4;
     height: auto;
 }
 
+adventure div {
+    display: flex;
+    flex-flow: row;
+ }
 
 figure {
     /* border: thin #c0c0c0 solid; */
