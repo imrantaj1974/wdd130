@@ -67,9 +67,7 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
-    /* position: relative; */
     background-color: navy;
-    /* align-items: center; */
     color: #fff;
     border: none;
     border-radius: .5rem;
