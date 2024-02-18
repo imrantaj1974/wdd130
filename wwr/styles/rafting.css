@@ -507,3 +507,21 @@ footer div {
 footer img {
     width: 50px;
    }
+   .wireframelatest {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows: 60px 150px; */
+    background-color: rgb(0, 119, 182);
+    border-color: skyblue;
+    border: 2px solid white;
+    color: white;
+    grid-gap: 1rem;
+    text-align: center;
+    padding: 2rem;
+    margin-top: -5px;
+}
+
+.wireframelatest img {
+    width: 650px;
+    height: auto;
+}
