@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* </style> */
  
 :root {
     --primary-color: #03045e;
@@ -157,9 +158,9 @@ grid-column: 1/4;
 
 .contact-form {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    grid-template-rows: 60px 150px;
+    /* grid-template-columns: 2fr 2fr 1fr 1fr; */
+    grid-template-columns: 2fr 1fr 1fr;
+    /* grid-template-rows: 60px 320px; */
     background-color: rgb(0, 119, 182);
     color: white;
     border-color: skyblue;
@@ -169,25 +170,10 @@ grid-column: 1/4;
     padding: 2rem;
     margin-top: -5px;
  }
-
-/* grid from Aventure copied here */
-/* .form h2 {
-    grid-column: 1/4 ;
-    } */
-
-/*  */
- 
-.contact-form img {
-    height: 50px;
-    width: auto;    
+ .contact-form img {
+    height: 50;
+    width: 50;    
 }
- 
-form div {
-    display: flex;
-    flex-flow: row;
- }
-/*  */
-
 
 
  
@@ -228,70 +214,6 @@ adventure div {
     display: flex;
     flex-flow: row;
  }
-
-/* Anothter class just like adventure is added. It has three employees with happy faces. */
-
-.employee-images {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 60px 150px;
-    background-color: rgb(0, 119, 182);
-    border-color: skyblue;
-    border: 2px solid white;
-    color: white;
-    grid-gap: 1rem;
-    text-align: center;
-    padding: 2rem;
-    margin-top: -5px;
-}
-
-.employee-images h2 {
-    grid-column: 1/4;
-    }
-
-/*  */
- 
-.employee-images img {
-    width: 150px;
-    height: auto;
-}
- 
-/* Grid and other information for contact form is added here just like I added for 3 employees */
-.contact-form {
-    display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    /* grid-template-rows: 60px 150px; */
-    background-color: rgb(0, 119, 182);
-    border-color: skyblue;
-    border: 2px solid white;
-    color: white;
-    grid-gap: 1rem;
-    text-align: left;
-    padding: 2rem;
-    margin-top: -5px;
-    font-size: larger;
-}
-/* 
-.contact-form h2 {
-    grid-column: 1/4;
-    } */
-
-/*  */
- 
-/* .employee-images img {
-    width: 150px;
-    height: auto; */
-/* } */
-
-/*  */
-
-.employee-images div {
-    display: flex;
-    flex-flow: row;
- }
-
-/*  */
-
 
 figure {
     /* border: thin #c0c0c0 solid; */
