@@ -521,6 +521,7 @@ footer img {
 }
 
 .wireframelatest img {
-    width: 650px;
+    width: 900px;
     height: auto;
+    align-items: center;
 }
