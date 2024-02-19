@@ -168,14 +168,7 @@ grid-column: 1/4;
     text-align: left;
     padding: 2rem;
     margin-top: -5px;
- }
-/* grid from Aventure copied here */
-/* .form h2 {
-    grid-column: 1/4 ;
-    } */
-
-/*  */
- 
+}
 .contact-form img {
     height: 50px;
     width: auto;    
