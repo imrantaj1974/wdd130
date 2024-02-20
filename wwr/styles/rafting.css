@@ -130,7 +130,7 @@ nav {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: 60px 220px;
-    background-color: rgb(0, 119, 182);
+    background-color: #0077b6;
     color: white;
     border-color: skyblue;
     border: 2px solid white;
@@ -514,3 +514,23 @@ footer img {
     height: auto;
     align-items: center;
 }
+.trip-contact-button {
+    background-color: #007bff; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+  }
+  
+  .trip-contact-button:hover {
+    background-color: #0077b6; /* Darker Blue */
+    
+  }
+  
