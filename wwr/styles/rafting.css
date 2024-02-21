@@ -29,8 +29,6 @@
     background-color: rgb(0, 119, 182);    
     padding: 5px;
     align-items: center;
-    margin-left: 0.3rem;
-    margin-right: -0.3rem;
 }
  
 .grid-container-footer {
@@ -42,8 +40,6 @@
     background-color: cyan;
     padding: 10px;
     align-items: center;
-    margin-left: 0.3rem;
-    margin-right: 10rem;   
    
 }
 
@@ -55,7 +51,6 @@
     padding: 20px;
     font-size: 20px;
     text-align: center;
-    margin: left 2rem;
      
     }
 /* The above coding is not making any difference */
@@ -140,11 +135,9 @@ nav {
     border-color: skyblue;
     border: 2px solid white;
     color: white;
-    text-align: left;
-    padding: 1rem;
+    text-align: center;
+    padding: 2rem;
     margin-top: -5px;
-    margin-left: 0.1rem;
-    margin-right: -0.4rem;
  }
 
  
@@ -156,7 +149,7 @@ grid-column: 1/4;
     width: 250px;
     height: auto;
 
-}
+} */
 
 
 /* HTML for to be added in Contact us file */
@@ -173,7 +166,7 @@ grid-column: 1/4;
     border: 2px solid white;
     color: white;
     text-align: left;
-    padding: 2rem;
+    padding: 5rem;
     margin-top: -5px;
 }
 .contact-form img {
@@ -185,7 +178,15 @@ form div {
     display: flex;
     flex-flow: row;
  }
+  
+/* .history img {
+    width: 250px;
+    height: auto;
+} */
+    /* Code ends here */
 
+
+/* Five images to be shown here. Given below is the box*/
 .adventure {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -198,8 +199,6 @@ form div {
     text-align: center;
     padding: 2rem;
     margin-top: -5px;
-    margin-left: 0.1rem;
-    margin-right: -0.4rem;
 }
 
 .adventure h2 {
@@ -315,7 +314,6 @@ h1 {
     color: white; /* Set the color to white */
     font-size: 2rem;
     font-family: Acme, Arial, sans-serif;
-    margin: 5;
 }
 
 .hero img {
@@ -350,7 +348,7 @@ h1 {
     
     top: 1rem;
     /* left: 1.2rem; */
-    left: 0.3rem;
+    left: 0;
     right: 0;
     text-align: center;
     padding: 1rem;
@@ -425,8 +423,6 @@ footer nav.grid-container-footer img {
     background-color: rgb(0, 119, 182);
     padding: 10px;
     align-items: center;
-    
-    
 }
 
 /* Header page links border */
@@ -478,8 +474,6 @@ background-color: rgb(0, 119, 182);
     padding: 1.75rem;
     align-items:center;
     text-align: center;
-    margin-left: 0.2rem;
-    margin-right: -0.3rem;
 }
 footer div {
     text-align: right;
@@ -601,37 +595,4 @@ grid-column: 1/8;
     font-size: 24px;
     color: #333;
     margin: 0;
-}
-
-.form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
-label {
-    display: block;
-    margin-bottom: 10px;
-}
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-}
-input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-input[type="submit"]:hover {
-    background-color: #0056b3;
 }
