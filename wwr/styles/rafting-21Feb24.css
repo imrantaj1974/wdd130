@@ -316,7 +316,6 @@ h1 {
     color: white; /* Set the color to white */
     font-size: 2rem;
     font-family: Acme, Arial, sans-serif;
-    
 }
 
 .hero img {
@@ -336,7 +335,6 @@ h1 {
     top: 8rem;
     left: 1rem;
     right: 0;
-    
     /* size of the photo of employee on the image and its position */
 }
 .hero article img {
@@ -356,8 +354,6 @@ h1 {
     right: 0;
     text-align: center;
     padding: 1rem;
-    margin-left: 0.3rem;
-    margin-right: -0.3rem;
 }
  
 aside {
@@ -370,7 +366,6 @@ aside {
     position: relative; */
     text-align: center;
     position: relative;
-    
 }
  
 main img {
