@@ -53,6 +53,17 @@
     text-align: center;
      
     }
+/* The above coding is not making any difference */
+
+.grid-item-footer {
+    background-color: white;
+    /* border: 1px solid #03045e; */
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    }
+   
+
    
 footer nav .grid-container-footer img {
     background-color: white;
@@ -138,7 +149,7 @@ grid-column: 1/4;
     width: 250px;
     height: auto;
 
-}
+} */
 
 
 /* HTML for to be added in Contact us file */
@@ -148,7 +159,7 @@ grid-column: 1/4;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* grid-template-columns: 1fr 1fr 1fr; */
-    grid-template-rows: 60px 250px;
+    grid-template-rows: 60px 150px;
     background-color: rgb(0, 119, 182);
     color: white;
     border-color: skyblue;
@@ -259,11 +270,11 @@ adventure div {
 }
  
 /* Grid and other information for contact form is added here just like I added for 3 employees */
-/* .contact-form {
-    display: grid; */
+.contact-form {
+    display: grid;
     /* grid-template-columns: 1fr 1fr 1fr; */
     /* grid-template-rows: 60px 150px; */
-    /* background-color: rgb(0, 119, 182);
+    background-color: rgb(0, 119, 182);
     border-color: skyblue;
     border: 2px solid white;
     color: white;
@@ -272,7 +283,7 @@ adventure div {
     padding: 2rem;
     margin-top: -5px;
     font-size: larger;
-} */
+}
 
 .employee-images div {
     display: flex;
@@ -458,14 +469,14 @@ a {
     text-decoration: none;
     color: #000;
 }
+/* I placed a . before body and the image is spread at the whole page */
 
-
-/* body {
+.body {
     width: 960px;
     margin: 0 auto;
     font-family: var(--paragraph-font);
-    background-color:  --accent2-color: rgb(143, 225, 239);
-} */
+    /* background-color:  --accent2-color: rgb(143, 225, 239); */
+}
 
 
 h1, h2, h3, h4 {
@@ -656,15 +667,12 @@ grid-column: 1/8;
 
 } 
 .signupbox {
-    
     width: 380px;
     height: 400px;
     margin: auto;
     background-color: rgb(0, 119, 182);
     border-radius: 10px;
-    margin-bottom: 1.5rem; 
 }
-
 
 h1{
     text-align: center;
@@ -695,6 +703,29 @@ form input{
     /* outline: none; */
 }
 
+/* input[type = "button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 0;
+    border: none;
+    background-color: #780000;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+} 
+
+.contactbutton {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #780000;
+    padding-top: 20px;
+
+    color: white;
+    font-size: 20px;
+} */
+
 .homebutton{
     width: 320px;
     height: 35px;
@@ -705,47 +736,3 @@ form input{
     color: white;
     font-size: 16px;
 }
-
-/* Start */
-.contactbox {
-    top: -5rem;
-    width: 380px;
-    height: 350px;
-    margin: auto;
-    background-color: rgb(0, 119, 182);
-    border-radius: 20px;
-    padding: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    color: white
-}
-
-/* h1{
-    text-align: center;
-    padding-top: 5px;
- */
-/* }
-h4{
-    text-align: center;
-} */
-/* form{
-    width: 300px;
-    margin-left: 20px; */
-
-/* }
-form label{
-    display: flex;
-    margin-top: 20px;
-    font-size: 15px;
-
-}
-form input{
-    width: 100%;
-    padding: 15px;
-    top: 50px;
-    border: none;
-    /* border: 1px solid yellow */
-    /* border-radius: 6px; */
-    /* outline: none; */
-} */
-/* End */
